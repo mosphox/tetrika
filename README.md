@@ -10,3 +10,17 @@
 [Задача 1](task1/task1.md)   
 [Задача 2](task2/task2.md)  
 [Задача 3](task3/task3.md)
+
+## Remarks
+#### Requirements:
+```
+python3 -m pip install -r requirements.txt
+```
+These are libs for task 2 and pytest
+
+#### Usage:
+```
+python3 solution/main.py
+python3 pytest
+```
+Run the script or tests like that from any task* dir
