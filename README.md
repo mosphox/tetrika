@@ -20,7 +20,7 @@ These are libs for task 2 and pytest
 
 #### Usage:
 ```
+cd task*
 python3 solution/main.py
 python3 pytest
 ```
-Run the script or tests like that from any task* dir
