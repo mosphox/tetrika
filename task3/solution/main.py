@@ -22,6 +22,8 @@ def appearance(intervals: dict[str, list[int]]) -> int:
         - Intersect the sets for lesson, pupil, and tutor.
         - Return the size of the intersection - that’s how long they were all in sync.
 
+    -----------------------------------------------------------------------------------------------
+
     nodes = [(intervals[entity][i], 'exit' if i % 2 else 'enter')
              for entity in ['pupil', 'tutor'] for i in range(len(intervals[entity]))]
     nodes += [(intervals['lesson'][0], 'enter'), (intervals['lesson'][1], 'exit')]
